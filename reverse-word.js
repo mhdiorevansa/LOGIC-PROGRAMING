@@ -1,8 +1,8 @@
 const ReverseWord = (string) => {
    let toArray = string.split('');
-   toArray.reverse();
-   let value = toArray.join('');
-   return value;
+   let ReverseWord = toArray.reverse();
+   ReverseWord = ReverseWord.join('');
+   return ReverseWord;
 }
 
 console.log(ReverseWord("hello"));
